@@ -1,6 +1,6 @@
 OpenidProvider::Application.routes.draw do
   
-  mount Masq::Engine => "/openid"
+  mount Masq::Engine => "/"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
